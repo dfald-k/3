@@ -1,0 +1,6 @@
+def kv_pod(number):
+    podezd = math.ceil(number/ 54)
+    etazh = nomer - (podezd - 1) * 54
+    print(f'подъезд {podezd}')
+    print(f'этаж {math.ceil(etaz / 6)}')
+    print(f'этаж квартиры по счёту {abs(number - (math.ceil(number / 6) - 1) * 6)}')
