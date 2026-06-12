@@ -1,0 +1,12 @@
+import math
+c = []
+m, n, k = 10, 5, 1
+
+for i in range(m):
+    c.append([])
+    for j in range(n):
+        c[i].append(k)
+        k += 1
+def koord(number):
+    print(f'строка {math.ceil(number/5)}')
+    print(f'столбец {(abs(chislo - (math.ceil(number/5) - 1) * 5))}')
