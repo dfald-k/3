@@ -1,0 +1,7 @@
+def otrezh_kvadrat(a=543, b=130, c=130):
+    a1 = a // c
+    a2 = b // c
+    if a < c or b < c:
+        return f"не удастся получить квадрат"
+    elif a1 >= 1 and a2 >= 1:
+        return f'можно отрезать {min(a1, a2)} квадратов'
