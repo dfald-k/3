@@ -1,0 +1,10 @@
+import math
+def t1(number):
+    yarus = math.ceil(number/ 120)
+    sek = math.ceil((number - 120 * (yarus - 1)) / 15)
+    print(f'секция {sek} ярус {yarus}')
+
+def t2(nomer):
+    yarus = number - 10 * (math.ceil(nuber/ 10) - 1)
+    sek = math.ceil(number/ 150)
+    print(f'секция {sek} ярус {yarus}')
