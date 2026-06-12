@@ -1,9 +1,16 @@
 n = 20
 m = 15
 a = [[0] * m for i in range(n)]
-
 k = 1643
 for i in range(n):
     for j in range(m):
         a[i][j] = k
         k += 1
+        def row(bilet):
+    if 1643 <= bilet < 1943:
+        for i in range(n):
+            for j in range(m):
+                if a[i][j] == bilet:
+                    return f'ряд: {i + 1}'
+    else:
+        return f'v'
